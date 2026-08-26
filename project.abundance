@@ -140,8 +140,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
+          "ioValue": "STL",
+          "currentEquation": "STL"
         },
         {
           "name": "Resolution (dpi)",
@@ -153,7 +153,7 @@
           "currentEquation": "Lipo_2s_to_3s_batteriefach_adapter_"
         }
       ],
-      "type": null,
+      "type": "STL",
       "resolution": 96,
       "importIndex": 0,
       "partName": "Lipo_2s_to_3s_batteriefach_adapter_"
