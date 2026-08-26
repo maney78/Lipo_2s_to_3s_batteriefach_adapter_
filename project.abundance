@@ -127,6 +127,36 @@
           "ioValue": 18
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.5528242677824268,
+      "y": 0.22384428223844283,
+      "uniqueID": "id-33",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Lipo_2s_to_3s_batteriefach_adapter_",
+          "currentEquation": "Lipo_2s_to_3s_batteriefach_adapter_"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Lipo_2s_to_3s_batteriefach_adapter_"
     }
   ],
   "allConnectors": [
@@ -149,6 +179,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-16",
       "ap2ID": "id-24"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-20",
+      "ap2ID": "id-33"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-20",
+      "ap2ID": "id-2"
     },
     {
       "ap2Name": "remove",
