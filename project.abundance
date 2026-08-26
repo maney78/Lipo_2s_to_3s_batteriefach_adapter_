@@ -87,6 +87,46 @@
           "currentEquation": "20"
         }
       ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.38023012552301255,
+      "y": 0.41605839416058393,
+      "uniqueID": "id-20",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.349581589958159,
+      "y": 0.7153284671532846,
+      "uniqueID": "id-24",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 27
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -96,9 +136,24 @@
       "ap2ID": "id-8"
     },
     {
+      "ap2Name": "retain",
+      "ap1ID": "id-8",
+      "ap2ID": "id-20"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-12",
       "ap2ID": "id-16"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-16",
+      "ap2ID": "id-24"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-24",
+      "ap2ID": "id-20"
     }
   ],
   "unitsKey": "MM",
